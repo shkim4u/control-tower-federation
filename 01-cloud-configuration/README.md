@@ -14,8 +14,10 @@
 1. (온프레미스) 임직원 정보를 저장하는 Active Directory를 생성하고 구성하여야 합니다. 이 작업은 강사에 의해 사전에 진행될 것입니다.
 2. (컨트롤 타워 - Management Account) 온프레미스의 임직원 서버에 접근하기 위하여 네트워크 구성을 하여야 합니다.
    1. **(중요)** *아래 목록에서 자신에게 부여된 번호를 사용하여 "10.NN.0.0/16"으로 CIDR 대역을 설정힙니다.*<br> 예를 들어 이슬기 프로님의 경우 18번이므로 "10.18.0.0/16"으로 VPC CIDR 를 설정합니다.<br>
-    또한 VPC 이름도 유사하게 설정합니다. 예) "samsung-company18"
-         ![Cloud - Attendees List](../images/01-cloud-configuration/attendees-list-cohort2.png)
+    또한 VPC 이름도 유사하게 설정합니다. 예) "samsung-company18"<br>
+     <!--- 
+     ![Cloud - Attendees List](../images/01-cloud-configuration/attendees-list-cohort2.png)
+     -->
    2. VPC: Active Directory (AD) Connector (아래 설명)가 위치할 VPC를 생성합니다.<br>
       ![Cloud - VPC](../images/01-cloud-configuration/cloud-vpc.png)
    2. 온프레미스로부터 공유된 Transit Gateway Sharing 수락하고 Transit Gateway Attachment를 생성합니다.<br>
